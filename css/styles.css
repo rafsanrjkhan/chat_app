@@ -1,0 +1,33 @@
+body {
+    font: 0.8em Arial;
+}
+
+.chat {
+    position: absolute;
+}
+
+.messages {
+    height: 210px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 250px;
+}
+
+.entry {
+    /* width: 100%; */
+    /* box-sizing: border-box; */
+    width: 260px;
+    height: 40px;
+    padding: 5px;
+    margin-top: 5px;
+    font: 1em Arial;
+}
+
+.chat .message a {
+    color: slategray;
+}
+
+.chat .message p {
+    margin: 5px 0;
+}
