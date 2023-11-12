@@ -12,6 +12,13 @@ $_SESSION['user'] = (isset($_GET['user']) === true) ? (int) $_GET['user'] :0;
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+
+    <div class="chat">
+        <div class="messages"></div>
+        <textarea class="entry" placeholder="Type here and hit return."></textarea>
+    </div>
     
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/chat.js"></script>
 </body>
 </html>
